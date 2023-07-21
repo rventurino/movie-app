@@ -223,6 +223,7 @@ section h2 {
   margin: 50px 0 30px;
 }
 
+
 .details-top img {
   width: 400px;
   height: 100%;
@@ -339,4 +340,16 @@ section h2 {
 
 .error {
   background: red;
+}
+
+@media (max-width: 400px) {
+  .details-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .details-top img{
+    margin-right: 0px;
+    object-fit: cover;
+  }
 }
